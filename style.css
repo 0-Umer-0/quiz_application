@@ -1,0 +1,76 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0;
+  color: #2f3640;
+}
+
+/* Main Title */
+h1 {
+  color: #273c75;
+  margin-bottom: 10px;
+}
+
+/* Question Box */
+#displayQuestion {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 15px;
+  background: #dcdde1;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Options */
+#displayOption button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #40739e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#displayOption button:hover {
+  background: #273c75;
+}
+
+/* Navigation Buttons */
+div button {
+  background: #44bd32;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+div button:hover {
+  background: #218c74;
+}
+
+/* Timer */
+#timerDisplay {
+  font-size: 26px;
+  font-weight: bold;
+  color: #e84118;
+  margin-top: 20px;
+}
+#timerDisplay.warning {
+  color: #c23616;
+}
